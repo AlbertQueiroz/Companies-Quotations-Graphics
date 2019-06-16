@@ -1,0 +1,67 @@
+<head><style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head><body><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas id="myChart" style="display: block; width: 980px; height: 490px;" width="1960" height="980" class="chartjs-render-monitor"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+
+    type: 'line',
+
+ 
+    data: {
+        labels: ['', '', '', '', '', '', '', '', '', 'Maior cotacao', '', '', '', '', '', 'Menor cotacao', '', '', '', '', '', '', '', '', '', '', '', '', '', ''],
+        datasets: [{
+            label: 'KICROSOFT',
+            backgroundColor: '',
+            borderColor: 'rgb(150, 99, 132)',
+            data: [6.16,
+10.11,
+25.7,
+36.14,
+18.89,
+4.53,
+3.61,
+34.99,
+4.32,
+40.47,
+32.47,
+24.68,
+36.42,
+8.03,
+31.38,
+0.41,
+39.98,
+39.47,
+16.76,
+38.75,
+23.63,
+18.83,
+37.77,
+22.04,
+38.96,
+7.72,
+27.2,
+9.84,
+33.85,
+9.44]
+        }]
+    },
+
+ 
+    options: {}
+});
+</script></body></html>
+
+COTACAO:
+ <br>nome: KICROSOFT
+ <br>codigo: KCRS
+ <br>tipoAtivo: Ativo
+ <br>descricao: Empressa do Bill Portões
+ <br>variacao: 2.32
+ <br>variacaoDia: 3.88
+ <br>ultimo: 9.44
+ <br>maximo: 40.47
+ <br>minimo: 0.41
+ <br>abertura: 6.16
+ <br>fechamento: 9.44
+

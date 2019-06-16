@@ -1,0 +1,67 @@
+<html><head><style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head><body><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas id="myChart" style="display: block; width: 980px; height: 490px;" width="1960" height="980" class="chartjs-render-monitor"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+
+    type: 'line',
+
+ 
+    data: {
+        labels: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Menor cotacao', '', '', 'Maior cotacao'],
+        datasets: [{
+            label: 'LINDA EMPRESA',
+            backgroundColor: '',
+            borderColor: 'rgb(150, 99, 132)',
+            data: [15.73,
+10.05,
+5.3,
+5.97,
+9.53,
+15.48,
+15.15,
+12.38,
+3.93,
+1.43,
+5.61,
+10.41,
+7.54,
+3.94,
+6.68,
+3.92,
+12.34,
+4.33,
+3.08,
+6.42,
+1.25,
+13.25,
+13.27,
+11.99,
+7.86,
+11.48,
+0.8,
+12.2,
+5.82,
+17.29]
+        }]
+    },
+
+ 
+    options: {}
+});
+</script></body></html>
+
+ COTACAO:
+ <br>nome: LINDA EMPRESA
+ <br>codigo: LINDS
+ <br>tipoAtivo: XII
+ <br>descricao: Meu deus essa empresa é MUITO linda mesmo!
+ <br>variacao: 1.63
+ <br>variacaoDia: 2.23
+ <br>ultimo: 17.29
+ <br>maximo: 17.29
+ <br>minimo: 0.8
+ <br>abertura: 15.73
+ <br>fechamento: 17.29
+

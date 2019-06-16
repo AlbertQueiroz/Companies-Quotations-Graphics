@@ -1,0 +1,69 @@
+<head><style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head><body><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div><canvas id="myChart" style="display: block; width: 980px; height: 490px;" width="1960" height="980" class="chartjs-render-monitor"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+
+    type: 'line',
+
+ 
+    data: {
+        labels: ['', '', '', '', '', '', '', '', '', '', '', '', 'Maior cotacao', '', '', '', '', '', '', '', '', '', '', '', 'Menor cotacao', '', '', '', '', ''],
+        datasets: [{
+            label: 'UNIVOR',
+            backgroundColor: '',
+            borderColor: 'rgb(150, 99, 132)',
+            data: [4.5,
+18.73,
+11.6,
+6.12,
+3.84,
+1.67,
+6.84,
+7.17,
+13.78,
+2.12,
+6.69,
+6.77,
+19.99,
+16.16,
+5.27,
+12.34,
+3,
+17.01,
+14.66,
+7.51,
+5.1,
+2.54,
+6.83,
+11.25,
+1.06,
+8.5,
+15.24,
+19.72,
+7.58,
+15.41]
+        }]
+    },
+
+ 
+    options: {}
+});
+</script></body></html>
+
+COTACAO:
+ <br>nome: UNIVOR
+ <br>codigo: uni123
+ <br>tipoAtivo: XKKM
+ <br>descricao: Unifersidade de Vortaleza
+ <br>variacao: 3.34
+ <br>variacaoDia: -0.002
+ <br>ultimo: 15.41
+ <br>maximo: 19.99
+ <br>minimo: 1.06
+ <br>abertura: 4.5
+ <br>fechamento: 15.41
+
+
+
