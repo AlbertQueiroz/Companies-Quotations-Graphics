@@ -1,3 +1,3 @@
 # Companies-Quotations-Graphics
 
-Quotations Graphics Study in Java Script
+Quotations Graphics Study using Web Scraping in Java Script
